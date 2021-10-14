@@ -1,0 +1,9 @@
+version: '3'
+
+services:
+        jbdc-studies:
+                build: ./postgresql
+                container_name: jbdc-studies_database
+                ports: 
+                        - 5432:5432
+
