@@ -18,7 +18,7 @@ public class ConnectionDb {
         try{
             DriverManager.registerDriver(new org.postgresql.Driver());
     
-            System.out.println("Connected with sucess on 5432 using psql.");
+           // System.out.println("Connected with sucess on 5432 using psql.");
     
             return DriverManager.getConnection(url, user, password);
         }catch(SQLException err){

@@ -1,6 +1,5 @@
 package jdbc.BaseRepository;
 
-import java.sql.Connection;
 import java.util.List;
 
 public interface BaseRepository<T, Y> {
@@ -11,7 +10,5 @@ public interface BaseRepository<T, Y> {
     T findById(int id);
     
     T findByUuid(String uuid);
-
-    T findByUuid(String uuid, Connection c);
 }
  
