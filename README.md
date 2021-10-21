@@ -1,4 +1,4 @@
-<h2 style="color: aquamarine;"> Only trying to learn jdbc :p </h2> 
+<h2 style="color: aquamarine;"> Only trying to learn Java 🐗 - jdbc  </h2> 
 
 <h3>This application helped me to learn: Java(some principles of OO) and Java Database Connector!</h3>
 
