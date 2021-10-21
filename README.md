@@ -8,5 +8,5 @@
 * Enter docker dir 
 * docker-compose build
 * docker-compose up -d
-* compile and run java dir
+* copy postgresql-connector to /jpa/lib dir, compile and run jpa dir and run App.java
 
